@@ -8,18 +8,20 @@
          "teecher",
          "TorrentBot"
       ],   
-   "success_url": "https://telegram.dog/",
   "website": "https://github.com/ShinchanNohara1/TorrentBot",
   "repository": "https://github.com/ShinchanNohara1/TorrentBot",
     "env": {
         "API_ID": {
             "description": "https://my.telegram.org"
+      "value": ""
         },
         "API_HASH": {
             "description": "https://my.telegram.org"
+      "value": ""
         },
         "BOT_TOKEN": {
             "description": "https://t.me/BotFather"
+      "value": ""
         },
         "TESTMODE": {
             "description": "Use Telegram's test servers",
@@ -28,9 +30,11 @@
         },
         "EVERYONE_CHATS": {
             "description": "Chats for everyone, space seperated, IDs only"
+      "value": ""
         },
         "ADMIN_CHATS": {
             "description": "Chats for admins, space seperated, IDs only"
+      "value": ""
         },
         "PROGRESS_UPDATE_DELAY": {
             "description": "Delay for progress and other things",
@@ -49,4 +53,6 @@
         }
     },
     "stack": "container"
+    }
+  }
 }
