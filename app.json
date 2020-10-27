@@ -1,4 +1,19 @@
-{
+{  
+      "name": "TorrentBot",
+      "description": "An Anime themed Telegram Torrent Leecher.",
+      "keywords": [
+         "telegram",
+         "anime",
+         "torrent",
+         "teecher",
+         "TorrentBot"
+      ],   
+   "repository": "https://github.com/ShinchanNohara1/TorrentBot",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
     "env": {
         "API_ID": {
             "description": "https://my.telegram.org"
