@@ -8,9 +8,9 @@
          "teecher",
          "TorrentBot"
       ],   
-   "success_url": "https://telegram.dog/AnyDLBot",
-  "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
+   "success_url": "https://telegram.dog/",
+  "website": "https://github.com/ShinchanNohara1/TorrentBot",
+  "repository": "https://github.com/ShinchanNohara1/TorrentBot",
     "env": {
         "API_ID": {
             "description": "https://my.telegram.org"
