@@ -19,42 +19,42 @@
     "env": {
         "API_ID": {
             "description": "https://my.telegram.org"
-      "value": ""
+      "value":""
         },
         "API_HASH": {
             "description": "https://my.telegram.org"
-      "value": ""
+      "value":""
         },
         "BOT_TOKEN": {
             "description": "https://t.me/BotFather"
-      "value": ""
+      "value":""
         },
         "TESTMODE": {
             "description": "Use Telegram's test servers",
-            "value": "0",
+            "value":"0",
             "required": false
         },
         "EVERYONE_CHATS": {
             "description": "Chats for everyone, space seperated, IDs only"
-      "value": ""
+      "value":""
         },
         "ADMIN_CHATS": {
             "description": "Chats for admins, space seperated, IDs only"
-      "value": ""
+      "value":""
         },
         "PROGRESS_UPDATE_DELAY": {
             "description": "Delay for progress and other things",
-            "value": "10",
+            "value":"10",
             "required": false
         },
         "MAGNET_TIMEOUT": {
             "description": "Timeout for magnets",
-            "value": "60",
+            "value":"60",
             "required": false
         },
         "LEECH_TIMEOUT": {
             "description": "Timeout for leeches",
-            "value": "300",
+            "value":"300",
             "required": false
         }
   },
