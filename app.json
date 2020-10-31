@@ -14,17 +14,21 @@
     "youtube-dl",
     "leecher"
   ],
-  "website": "https://github.com/MaxxRider/TorRobot",
   "repository": "https://github.com/MaxxRider/TorRobot",
-    "env": {
-        "API_ID": {
-            "description": "https://my.telegram.org"
-      "value":""
-        },
-        "API_HASH": {
-            "description": "https://my.telegram.org"
-      "value":""
-        },
+  "website": "https://github.com/MaxxRider/TorRobot",
+  "logo": "https://telegra.ph/file/8b973b270f4f380a427b1.png",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
         "BOT_TOKEN": {
             "description": "https://t.me/BotFather"
       "value":""
@@ -67,12 +71,11 @@
   }, {
     "url": "heroku/python"
   }],
+  "stack": "container",
   "formation": {
     "worker": {
       "quantity": 1,
       "size": "free"
     }
   }
-}
-"stack": "container"
 }
