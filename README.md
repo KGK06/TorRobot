@@ -1,2 +1,3 @@
 # TorrentBot
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://heroku.com/deploy?template=https://github.com/MaxxRider/tree/main/TorRobot)
+
