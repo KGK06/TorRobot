@@ -14,8 +14,8 @@
     "youtube-dl",
     "leecher"
   ],
-  "website": "https://github.com/ShinchanNohara1/TorrentBot",
-  "repository": "https://github.com/ShinchanNohara1/TorrentBot",
+  "website": "https://github.com/MaxxRider/TorRobot",
+  "repository": "https://github.com/MaxxRider/TorRobot",
     "env": {
         "API_ID": {
             "description": "https://my.telegram.org"
