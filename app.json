@@ -25,17 +25,17 @@
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
-      "required" : true
+      "required": true
     },
     "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
         "value": ""
-        "required" : true
+        "required": true
       }
         "BOT_TOKEN": {
          "description": "https://t.me/BotFather"
          "value":""
-         "required:0" : true
+         "required": true
         },
         "TESTMODE": {
          "description": "Use Telegram's test servers",
