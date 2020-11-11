@@ -24,7 +24,6 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
       "required": true
     },
     "API_HASH": {
@@ -34,7 +33,6 @@
       }
         "BOT_TOKEN": {
          "description": "https://t.me/BotFather"
-         "value":""
          "required": true
         },
         "TESTMODE": {
