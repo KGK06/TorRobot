@@ -25,41 +25,45 @@
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
+      "required" : true
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
-      "value": ""
+        "description": "Get this value from https://my.telegram.org",
+        "value": ""
+        "required" : true
+      }
         "BOT_TOKEN": {
-            "description": "https://t.me/BotFather"
-      "value":""
+         "description": "https://t.me/BotFather"
+         "value":""
+         "required:0" : true
         },
         "TESTMODE": {
-            "description": "Use Telegram's test servers",
-            "value":"0",
-            "required": false
+         "description": "Use Telegram's test servers",
+         "value":"0",
+         "required": false
         },
         "EVERYONE_CHATS": {
-            "description": "Chats for everyone, space seperated, IDs only"
-      "value":""
+         "description": "Chats for everyone, space seperated, IDs only"
+         "value":"1190789123"
         },
         "ADMIN_CHATS": {
-            "description": "Chats for admins, space seperated, IDs only"
-      "value":""
+         "description": "Chats for admins, space seperated, IDs only"
+         "value":"1190789123"
         },
         "PROGRESS_UPDATE_DELAY": {
-            "description": "Delay for progress and other things",
-            "value":"10",
-            "required": false
+         "description": "Delay for progress and other things",
+         "value":"10",
+         "required": false
         },
         "MAGNET_TIMEOUT": {
-            "description": "Timeout for magnets",
-            "value":"60",
-            "required": false
+         "description": "Timeout for magnets",
+         "value":"60",
+         "required": false
         },
         "LEECH_TIMEOUT": {
-            "description": "Timeout for leeches",
-            "value":"300",
-            "required": false
+        "description": "Timeout for leeches",
+        "value":"300",
+        "required": false
         }
   },
   "addons": [
